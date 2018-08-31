@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <demo.stepcount.com.StepCount
+        android:id="@+id/step_count"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        app:innerColor = "#1188ff"
+        app:outterColor = "#ff7788"
+        app:boderWidth="5dp"
+        app:stepSize = "20dp"
+        app:stepColor="#ff0000"
+       />
+
+</RelativeLayout>

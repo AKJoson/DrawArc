@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StepCount">
+        <attr name="innerColor" format="color"/>
+        <attr name="outterColor" format="color"/>
+        <attr name="boderWidth" format="dimension"/>
+        <attr name="stepSize" format="dimension"/>
+        <attr name="stepColor" format="color"/>
+    </declare-styleable>
+</resources>
